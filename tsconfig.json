@@ -3,9 +3,17 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@app/*":["src/app/*"],
+      "@shared/*":["src/app/shared/*"],
+      "@environment/*":["src/environments/*"],
+      "@pokemons/*":["src/app/components/pages/pokemons/*"],
+      "@pages/*":["src/app/components/pages/*"]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "strictPropertyInitialization": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,

@@ -1,0 +1,16 @@
+
+<body class="text-center">
+     <main role="main" class="inner cover">
+         <div class="row col-sm-4 offset-sm-4">
+            <h2 class="cover-heading">Bienvenido al generador de batallas pokemon</h2>
+            <p class="lead">
+                Aqui podras enfrentar dos pokemones y descubrir el ganador, 
+                para esto basta con elegir alguno, asignarle un rival, y enfrentarlos.
+            </p>
+         </div>
+    </main>
+   
+</body>
+<div>  
+    <app-pokemon-list (setPokemon)="choosePokemon($event)"></app-pokemon-list>
+</div>

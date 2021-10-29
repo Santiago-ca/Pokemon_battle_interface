@@ -1,0 +1,12 @@
+<header class="masthead text-center">
+    <div class="row align-middle">
+        <h3 class=" masterhead-brand col-sm-4 pull-left">Pokemon Battle Generator</h3>
+        <nav class="nav nav-masthead justify-content-center col-sm-4 pull-right">
+            <a [className]="homeActive? 'nav-link active': 'nav-link inactive'" (click)="goToHome()">Inicio</a>
+            <a [className]="!homeActive? 'nav-link active': 'nav-link inactive'"  (click)="goToDetails()">Iniciar una Batalla</a>
+        </nav>
+        <div class="col-sm-4">
+        </div>
+    </div>
+</header>
+
